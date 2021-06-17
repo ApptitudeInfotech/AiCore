@@ -1,0 +1,84 @@
+{
+  "name": "@aiui/ai-core",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Minimal Component Library for React Applications. Provides Overlay, Icon, Loader, Button, Modal, Snackbar, Toolbar, Bottombar, Drawer and  Form component",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook --port 9009 --host 0.0.0.0",
+    "build": "NODE_ENV=production rollup -c",
+    "publish": "npm run build && npm publish --access public",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "react",
+    "apptitude",
+    "component",
+    "ai",
+    "aiui",
+    "ai-core",
+    "core",
+    "framework",
+    "Provides",
+    "Overlay",
+    "Icon",
+    "Loader",
+    "Button",
+    "Modal",
+    "Snackbar",
+    "Toolbar",
+    "Bottombar",
+    "Drawer",
+    "Form",
+    "material"
+  ],
+  "author": {
+    "name": "Apptitude Infotech",
+    "email": "apptitude.infotech@gmail.com",
+    "url": "https://apptitude.in/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApptitudeInfotech/AiCore.git"
+  },
+  "license": "GPL",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.46.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@aiui/ai-bottombar": "^1.0.0",
+    "@aiui/ai-btn": "^1.0.3",
+    "@aiui/ai-drawer": "^1.0.0",
+    "@aiui/ai-form": "^1.0.0",
+    "@aiui/ai-icon": "^1.0.5",
+    "@aiui/ai-loader": "^1.0.3",
+    "@aiui/ai-modal": "^1.0.3",
+    "@aiui/ai-overlay": "^1.0.9",
+    "@aiui/ai-snackbar": "^1.0.0",
+    "@aiui/ai-toolbar": "^1.0.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
